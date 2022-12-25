@@ -1,14 +1,8 @@
-import { useEffect } from "react";
 import { Loading, SingleJobList } from "../components";
 import { useAppContext } from "../context/appContext";
 
 const JobsContainer = () => {
-  const { getJobs, jobs, isLoading, clearValues } = useAppContext();
-
-  useEffect(() => {
-    clearValues();
-    getJobs();
-  }, []);
+  const { jobs, isLoading } = useAppContext();
 
   const categories = ["Position", "Company", "Date", "Status", "Action"];
 
