@@ -5,15 +5,15 @@ const FormJobs = () => {
   const { position, company, handleChange, createJob, getJobs, isLoading } =
     useAppContext();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (!company || !position) {
       return;
     }
 
-    createJob();
-    getJobs();
+    await createJob();
+    await getJobs();
   };
 
   const handleInput = (e) => {

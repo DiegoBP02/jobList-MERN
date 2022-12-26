@@ -43,7 +43,7 @@ const SingleJob = () => {
         <div className="btn-container">
           <button
             className="btn btn-hero btn-home"
-            onClick={() => navigate("/dashboard")}
+            onClick={() => navigate("/")}
           >
             Back Home
           </button>

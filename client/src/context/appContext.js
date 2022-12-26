@@ -56,8 +56,7 @@ const AppProvider = ({ children }) => {
     },
     (error) => {
       if (error.response.status === 401) {
-        // logoutUser();
-        console.log("unauthorized error");
+        logoutUser();
       }
       return Promise.reject(error);
     }

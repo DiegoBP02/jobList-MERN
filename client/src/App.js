@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/dashboard"
+          path="/"
           element={
             <ProtectedRoute>
               <SharedLayout />
@@ -29,7 +29,7 @@ function App() {
             </ProtectedRoute>
           }
         />
-        <Route path="/" element={<Landing />} index />
+        <Route path="/landing" element={<Landing />} index />
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
