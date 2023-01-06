@@ -3,7 +3,7 @@ import { useAppContext } from "../context/appContext";
 import { FaUserCircle } from "react-icons/fa";
 import { RiArrowDownSFill } from "react-icons/ri";
 import { useState } from "react";
-import logo from "../assets/images/logo.png";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const { user, logoutUser } = useAppContext();
@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <Wrapper>
       <header className="header">
-        <img src={logo} alt="logo navbar" className="logo" />
+        <Logo noMargin />
         <div className="btns">
           <button className="btn" onClick={() => setShowLogout(!showLogout)}>
             <FaUserCircle />

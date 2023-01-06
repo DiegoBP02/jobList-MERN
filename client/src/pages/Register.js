@@ -4,7 +4,7 @@ import FormRow from "../components/FormRow";
 import { useAppContext } from "../context/appContext";
 import { useNavigate } from "react-router-dom";
 import Wrapper from "../assets/wrappers/Register";
-import logo from "../assets/images/register.png";
+import Logo from "../components/Logo";
 
 const initialState = {
   name: "",
@@ -63,7 +63,7 @@ const Register = () => {
   return (
     <Wrapper className="full-page">
       <form className="form" onSubmit={handleSubmit}>
-        <img src={logo} alt="job list" className="logo" />
+        <Logo center />
         <h3>{values.isMember ? "Login" : "Register"}</h3>
         {showAlert && <Alert />}
         {/* name field */}

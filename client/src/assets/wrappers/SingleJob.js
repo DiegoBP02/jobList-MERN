@@ -42,7 +42,6 @@ const Wrapper = styled.main`
   }
   .form-select {
     margin-bottom: 2rem;
-    width: auto;
   }
   @media (min-width: 992px) {
     .form-container {

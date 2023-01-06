@@ -92,7 +92,7 @@ const Wrapper = styled.main`
   }
   .btn-add {
     font-size: 1rem;
-    padding: 0 2rem;
+    height: 35px;
   }
   .icon {
     background: var(--primary);

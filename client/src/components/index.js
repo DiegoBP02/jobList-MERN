@@ -6,6 +6,8 @@ import FormRowSelect from "./FormRowSelect";
 import FormJobs from "./FormJobs";
 import JobsContainer from "./JobsContainer";
 import SingleJobList from "./SingleJobList";
+import Logo from "./Logo";
+
 export {
   Alert,
   Loading,
