@@ -19,8 +19,6 @@ Primeiro projeto pessoal feito através das tecnologias do MERN, através dele o
 
 ### Live: https://joblist-mern.onrender.com
 
-- Melhorias futuras: transformar o arquivo png da logo por um arquivo svg
-
 INSTALLATION
 
 install dependencies with 'npm install' command
