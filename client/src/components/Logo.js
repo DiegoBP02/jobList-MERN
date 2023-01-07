@@ -11,7 +11,7 @@ const Logo = ({ center, noMargin }) => {
   return (
     <nav className={className}>
       <img src={logo} alt="logo image" />
-      <h2>Todo List</h2>
+      <h2>Job List</h2>
     </nav>
   );
 };
